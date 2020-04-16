@@ -8,3 +8,5 @@ typings/
 */src/**/*.js.map
 */coverage/
 package-lock.json
+.awcache/
+*.log
