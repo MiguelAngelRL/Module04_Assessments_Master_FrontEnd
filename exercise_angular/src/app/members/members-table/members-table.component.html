@@ -4,7 +4,7 @@
 <table>
   <thead app-member-head></thead>
   <tbody>
-    <tr app-member-row [member]="member" *ngFor="let member of members">
+    <tr app-member-row [member]="member" *ngFor="let member of $members|async">
     </tr>
   </tbody>
 </table>
